@@ -69,10 +69,10 @@ print(f"With a starting point of: {start_point}")
 print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 
 start_point = start_point / 10
+beans, jars, crates = secret_formula(start_point)
 
 print("We can also do that this way:")
-print("We'd have {} beans, {} jars, and {} crates.".format(secret_formula(start_point))
-
+print("We'd have {} beans, {} jars, and {} crates.".format(beans, jars, crates))
 
 sentence = "All good things come to those who wait."
 
@@ -89,4 +89,3 @@ print(sorted_words)
 print_first_and_last(sentence)
 
 print_first_and_last_sorted(sentence)
-
